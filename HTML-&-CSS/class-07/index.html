@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>User info form</h1>
+
+    <!-- <form>
+      <label for="fullname">Fullname</label><br />
+      <input
+        type="text"
+        placeholder="enter your name"
+        id="fullname"
+      /><br /><br />
+
+
+      <input type="number">
+      <input type="date">
+      <input type="color" >
+      <input type="email" >
+      <input type="password" >
+      <input type="file" >
+      <input type="range" min="0" max="10" value="2">
+      <input type="time" >
+
+      <input type="submit">
+      <button>hello</button> <br><br>
+
+      <label >Gender</label> <br>
+      <label for="male">male</label>
+      <input type="radio" id="male" name="gender">
+      <label for="female">female</label>
+      <input type="radio" id="female" name="gender"><br><br>
+
+
+      <label>Hobbies</label><br>
+      <label for="swimming">swimming</label>
+      <input type="checkbox" id="swimming"><br>
+      <label for="reading">reading</label>
+      <input type="checkbox" id="reading"><br>
+      <label for="eating">eating</label>
+      <input type="checkbox" id="eating"><br>
+      <label for="gaming">gaming</label>
+      <input type="checkbox" id="gaming">
+
+    </form> -->
+
+
+   <fieldset>
+    <legend>User info</legend>
+     <form>
+        <label for="fullname">Fullname</label><br>
+        <input type="text" placeholder="enter your fullname" id="fullname" value="hello" required minlength="5" maxlength="15"> <br><br>
+        <label for="email">email</label><br>
+        <input type="email" placeholder="enter your email" required id="email"> <br><br>
+        <label for="password">password</label><br>
+        <input type="password" placeholder="enter your password" id="password"> <br><br>
+        <label for="age">Date of birth</label><br>
+        <input type="date" placeholder="enter your age" id="age" > <br><br>
+
+        <select>
+            <option value="sindh">Sindh</option>
+            <option value="punjab">punjab</option>
+            <option value="balochistan" selected>balochistan</option>
+            <option value="kpk">kpk</option>
+            <option value="gb">gb</option>
+        </select><br><br>
+
+        <textarea placeholder="enter your bio" rows="7" cols="40"></textarea> <br><br>
+
+        <input type="submit">
+    </form>
+   </fieldset>
+
+
+  </body>
+</html>
+
+
+<!-- fullname email password age province bio -->
