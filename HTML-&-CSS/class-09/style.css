@@ -1,0 +1,31 @@
+/* h1 {
+    text-align: center;
+    background-color: red;
+    color: white;
+} */
+
+
+/* * {
+    color: red;
+} */
+
+/* h1, p {
+    color: purple;
+} */
+
+/* 
+#heading-one{
+    color: aqua;
+}
+
+.heading{
+    color: bisque;
+} */
+
+/* .first-parent > p{
+    color: orange;
+} */
+
+.first-parent p{
+    color: orange;
+}
