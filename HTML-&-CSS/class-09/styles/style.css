@@ -26,6 +26,13 @@
     color: orange;
 } */
 
-.first-parent p{
+/* .first-parent p{
     color: orange;
 }
+
+h1 ~ p{
+    color: yellowgreen;
+} */
+/* h1 + p{
+    color: yellowgreen;
+} */

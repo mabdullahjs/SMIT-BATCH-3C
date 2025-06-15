@@ -1,0 +1,45 @@
+/* #heading-one{
+    color: aqua;
+}
+.heading{
+    color: yellowgreen;
+}
+
+h1 {
+    color: purple !important;
+}
+
+*{
+    color: red;
+} */
+
+ /* * > type > class > id */
+
+ .container {
+    color: red;
+    font-size: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1 {
+    
+    border: inherit;
+ }
+
+
+ /* color
+
+font-family
+
+font-size
+
+visibility
+
+line-height
+
+letter-spacing
+
+word-spacing
+
+text-align */
