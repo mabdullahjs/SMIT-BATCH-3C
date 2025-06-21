@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bfc0c3;
+  margin: 50px 40px;
+}
+
+h1 {
+  color: #6a6862;
+  background-color: #e0e1e2;
+  opacity: 0.5;
+}
+
+.fourteen{
+  background-color: #2b84c6;
+}
+.thirteen{
+  background-color: #2293d1;
+}
+.twelve{
+  background-color: #1d9dd8;
+}
