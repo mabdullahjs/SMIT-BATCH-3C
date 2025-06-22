@@ -1,0 +1,123 @@
+/* units */
+
+/* relative units 
+%
+em
+rem
+
+*/
+/* absolute units
+px
+vw
+vh
+
+*/
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* .parent{
+    border: 2px solid black;
+    width: 50%;
+}
+.children{
+    border: 1px solid red;
+    width: 50%;
+} */
+
+/* 
+.parent{
+    border: 2px solid black;
+    width: 80vw;
+    height: 200vh;
+}
+.children{
+    border: 1px solid red;
+    width: 90vw;
+} */
+
+/* 
+h1 {
+    font-size: 32px;
+}
+
+ */
+
+
+/* 1em ==> 16px */
+
+/* 
+html {
+    font-size: 32px;
+}
+ */
+
+/* 
+h1 {
+    font-size: 4em;
+} */
+
+/* 
+.parent{
+    font-size: 50px;
+}
+
+p{
+    font-size: 2rem;
+} */
+
+
+
+
+/* .inside-div{
+    font-size: 2rem;
+}
+.outside-div{
+    font-size: 32px;
+} */
+
+/* 
+html {
+    font-size: 62.5%;
+} */
+
+/* 16px ==> 100%
+10px ==> 62.5%
+*/
+
+
+/*
+conclusion: 
+
+fontsize ==> rem
+width ==> %
+border ==> px
+padding, margin ==> px
+
+
+/* 45px 12px 23px */
+/* 1 rem 10px 5rem 4.2rem */
+
+/* html ==> 16px 100% */
+/* html ==> 10px 62.5% */
+
+
+p{
+    font-style: italic;
+    text-transform: capitalize;
+    /* line-height: 5rem; */
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
+    text-align: justify;
+}
+
+span{
+    text-decoration: line-through;
+
+}
+
+h1{
+    text-align: end;
+}
