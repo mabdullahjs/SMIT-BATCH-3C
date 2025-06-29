@@ -1,0 +1,29 @@
+/* button:active {
+    background-color: red;
+}
+
+input:focus {
+    background-color: yellow;
+} */
+
+h1 {
+  /* border: 2px solid black; */
+  /* border: 20px groove black; */
+  /* border-width: 20px;
+  border-style: groove;
+  border-color: black; */
+  /* width: 800px; */
+
+  min-width: 400px;
+  max-width: 800px;
+
+  border-bottom: 2px solid black;
+  border-left: 4px groove black;
+}
+p {
+  border: 3px solid black;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+  overflow: scroll;
+}

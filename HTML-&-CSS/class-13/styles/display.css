@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+/* display
+inline
+inline-block
+block
+none
+
+*/
+
+h1{
+    display: inline;
+    width: 500px;
+    height: 500px;
+    margin: 500px 20px;
+    padding: 0px 10px;
+}
+
+a{
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    display: none;
+    /* visibility: hidden; */
+
+    width: 200px;
+}

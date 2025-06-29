@@ -1,0 +1,24 @@
+h1:first-letter , span {
+    font-size: 5rem;
+}
+
+p:first-line{
+    color: red;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: green;
+}
+
+h1:hover{
+    background-color: red;
+    color: white;
+}

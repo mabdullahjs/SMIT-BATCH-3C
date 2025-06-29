@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* top right bottom left */
+h1{
+    border: 3px solid black;
+    padding: 50px 30px 20px 70px;
+    margin: 20px 30px;
+    width: 400px;
+    /* box-sizing: border-box; */
+    /* padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 30px; */
+}
