@@ -1,0 +1,36 @@
+.container{
+    width: 300px;
+    height: 3500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 3500px;
+}
+
+.children{
+    width: 100px;
+    height: 100px;
+}
+
+#red{
+    background-color: red;
+    position: relative;
+    top: 40px;
+    right: 40px;
+    z-index: 1;
+}
+#green{
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#blue{
+    background-color: lightblue;
+    position: sticky;
+    top: 30px;
+    
+}
+
+ul {
+    list-style-image: url("https://www.w3schools.com/cssref/sqpurple.gif");
+}
