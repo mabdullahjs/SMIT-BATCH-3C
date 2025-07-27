@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --green: #28a745;
+  --dark-grey: #0f0f0f;
+}
+
+@font-face {
+    font-family: apercu;
+    src: url("../assets/fonts/apercu/Apercu\ regular.otf");
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: futurak;
+    src: url("../assets/fonts/futurak/futurak.ttf");
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: inter;
+}
+
+/* navbar started */
+.logo-image{
+    width: 165px;
+}
+.nav-items > a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.8rem;
+}
+.nav-items > button {
+    font-size: 1.6rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+.order-btn{
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+.arrow-icon{
+    color: var(--red);
+    background-color: var(--white);
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+/* navbar ended */
+
+/* slider image started */
+.slider-image{
+    width: 100%;
+}
+/* slider image ended */
+
+/* our-brands started */
+.our-brands > h2 {
+    font-family: apercu;
+    font-size: 4.2rem;
+    text-align: center;
+    font-weight: 100;
+}
+.our-brands {
+    margin: 40px 0px;
+}
+.futurak {
+    font-family: futurak;
+    font-size: 5.2rem;
+}
+.our-brands > p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+.brand-image{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 140px;
+}
+.children{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.brands-order-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 12px 75px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sub-brands{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+/* our-brands ended */
