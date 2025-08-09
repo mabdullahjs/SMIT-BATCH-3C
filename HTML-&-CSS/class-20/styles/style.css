@@ -1,0 +1,46 @@
+ body {
+    background-color: black;
+    color: white;
+}
+/*
+@media(max-width: 1000px){
+    body {
+        background-color: blue;
+    }
+}
+
+@media(max-width: 600px){
+    body {
+        background-color: purple;
+    }
+}
+ */
+
+
+ .logo-image{
+    width: 165px;
+ }
+ .nav-items {
+    font-size: 1.5rem;
+    gap: 20px;
+ }
+ .icon{
+    font-size: 1.5rem;
+ }
+
+ .menu-icon{
+    display: none;
+ }
+
+ @media(max-width: 900px){
+    .menu-icon{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+ }
