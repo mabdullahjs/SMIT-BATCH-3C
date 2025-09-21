@@ -81,19 +81,38 @@
 
 
 
-var age = 19;
-var ticket = true;
+// var age = 19;
+// var ticket = true;
 
-if(age >= 18 && ticket){
-    console.log("welcome to our event");
+// if(age >= 18 && ticket){
+//     console.log("welcome to our event");
+    
+// } else {
+//     console.log("kisna bulaya ha appko.");
+    
+// }
+
+
+
+
+
+// nested if else
+
+
+var age = 68
+
+if(age >= 18){
+    console.log("welcome to the gym");
+
+    if(age >= 60){
+        console.log("bhai 60 sa bara ha koi issue to nahi");
+        
+    } else {
+        console.log("60 sa chota ho koi masla nahi");
+        
+    }
     
 } else {
-    console.log("kisna bulaya ha appko.");
+    console.log("no admission");
     
 }
-
-
-
-
-
-
