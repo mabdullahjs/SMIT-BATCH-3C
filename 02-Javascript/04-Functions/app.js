@@ -57,17 +57,14 @@
 // var username;
 // console.log(username);
 
-
 // function greetings(fullName){
 //     console.log("Hello " + fullName);
-    
+
 // }
 
 // greetings()
 
-
-// return 
-
+// return
 
 // var username = prompt("enter your name");
 
@@ -75,18 +72,15 @@
 
 // console.log(prompt("enter value for console"));
 
-
 // function greetings(user){
-//     console.log("Hello " + user);    
-//     return "Hello " + user + " return" 
+//     console.log("Hello " + user);
+//     return "Hello " + user + " return"
 // }
 
 // var greetUser = greetings("Abdullah");
 // console.log(greetUser);
 
 // console.log("testing func " , greetings("usman"));
-
-
 
 // var checkType = typeof("Hello")
 // var checkTypeBool = typeof(true)
@@ -95,13 +89,10 @@
 // console.log(checkTypeBool);
 // console.log(typeof(20));
 
-
 // var firstUser = greetings("Abdullah")
 // console.log(firstUser);
 
 // console.log(greetings("Usman"));
-
-
 
 // global and local variable
 
@@ -113,11 +104,6 @@
 
 // testing()
 // console.log(firstname + " " + lastname);
-
-
-
-
-
 
 // ### 🔹 Basic Return Practice
 
@@ -145,13 +131,11 @@
 //    }
 //    ```
 
-
 // function addTwoNumbers(num1 , num2){
 //     return num1 + num2
 // }
 
 // console.log(addTwoNumbers(290 , 240));
-
 
 // 5. **Return a doubled number**
 
@@ -167,7 +151,6 @@
 
 // console.log(doubleNum(60));
 
-
 // ---
 
 // ### 🔹 Return With Conditional Logic
@@ -180,19 +163,16 @@
 //    }
 //    ```
 
+// function isEven(num){
+//     if(num % 2 === 0){
+//         return "it is even number"
+//     }
 
-function isEven(num){
-    if(num % 2 === 0){
-        return "it is even number"
-    }
+//     return "it is odd number"
 
-    return "it is odd number"
+// }
 
-}
-
-console.log(isEven(20));
-
-
+// console.log(isEven(20));
 
 // 7. **Return the larger of two numbers**
 
@@ -257,3 +237,45 @@ console.log(isEven(20));
 //       // return the sum of all numbers in the array
 //     }
 //     ```
+
+// function cube(num){
+//     return num ** 3
+// }
+
+// console.log(cube(30));
+
+// function average (num1 , num2 , num3){
+//     return (num1 + num2 + num3 ) / 3
+// }
+
+// console.log(average(40 , 20 , 40));
+
+// function combine(val1,  val2){
+//     return val1 + val2
+// }
+
+// console.log(combine(10 , 10));
+// console.log(combine("10" , "10"));
+
+// function test(msg){
+//     if(msg){
+//         return msg
+//     }
+
+//     return "no mess provided"
+// }
+
+// console.log(test());
+
+
+// function recurssion(n){
+//     if(n === 0){
+//         return 0
+//     }
+
+//     return n + recurssion(n - 1)
+// }
+
+
+// console.log(5+4+3+2+1);
+// console.log(recurssion(1000));
